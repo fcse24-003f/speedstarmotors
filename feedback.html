@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Speed Star Motors | Feedback</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+   <header>
+      <div class="logo">
+         <h1>Speed Star Motors</h1>
+      </div>
+      <nav>
+         <ul>
+            <li>
+               <a href="index.html">Home</a>
+            </li>
+            <li>
+               <a href="contact.html">Contact Us</a>
+            </li>
+            <li>
+               <a href="aboutus.html">About Us</a>
+            </li>
+            <li>
+               <a href="services.html">Services</a>
+            </li>
+            <li>
+               <a href="Feedback.html">Feedback</a>
+            </li>
+         </ul>
+      </nav>
+   </header>
+   
+      <section class="feedback-container">
+         <main class="main-content">
+            <h1>Feedback</h1>
+            <p><strong>We value your feedback! Please share your thoughts below.</strong></p>
+            <form action="submit-feedback.php" method="POST">
+               <Label for="name">Name:</Label>
+               <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+               <Label for="email">Email:</Label>
+               <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+               <Label for="message">Your feedback:</Label>
+               <textarea id="message" name="message" rows="5" placeholder="Enter your feedback" required></textarea>
+               <button type="submit">Submit Feedback</button>
+               
+            </form>
+         </main>
+
+         <aside class="sidebar">
+            <h3>Latest Offers</h3>
+            <hr>
+            <img src="images/c63s.jpeg" alt="C63 AMG Offer">
+            <p>Trade in your old car for a brand new model <a href="#">Check offer</a></p>
+            <img src="images/New-Toyota-Land-Cruiser.webp" alt="Toyota Land Cruiser Offer">
+            <p>Exclusive discounts on car services <a href="#">Book now</a></p>
+         </aside>
+      </section>
+      <footer>
+         <p>&copy; 2025 Speed Star Motors. All rights reserved.</p>
+         <p>Follow us on:
+            <a href="https://facebook.com/speedstarmotors" target="_blank" class="social-icon fa fa-facebook"></a>
+            <a href="https://twitter.com/speedstarmotors" target="_blank" class="social-icon fa fa-twitter"></a>
+            <a href="https://instagram.com/speedstarmotors" target="_blank" class="social-icon fa fa-instagram"></a>
+         </p>
+      </footer>
+</body>
+
+</html>
